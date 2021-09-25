@@ -39,21 +39,23 @@
 **Ход работы:**
 
 \1. Напишем скрипт, который будет при запуске будет делать резервную копию самого себя (то есть файла, в котором содержится его исходный код) в другую backup в вашем домашнем каталоге. При этом файл должен архивироваться одним из архиваторов на выбор zip, bzip2 или tar. Способ использования команд архивации узнать изучив справку.
-
+![рис1](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.16.13.png)
 
 \2. Напишем пример командного файла, обрабатывающего любое произвольное число аргументов командной строки, в том числе превышающее десять. Например, скрипт может последовательно распечатывать значения всех переданных аргументов. 
-
-
+![рис2](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.19.43.png)
+![рис3](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.24.41.png)
+![рис4](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.24.50.png)
 
 
 \3. Написать командный файл — аналог команды ls (без использования самой этой команды и команды dir). Требуется, что бы он выдавал информацию о нужном каталоге и выводил информацию о возможностях доступа к файлам этого каталога. 
-
-
+![рис5](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.31.02.png)
+![рис6](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.32.08.png)
+![рис7](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.32.26.png)
 
 
 \4. Напишем командный файл, который получает в качестве аргумента командной строки формат файла (.txt, .doc, .jpg, .pdf и т.д.) и вычисляет количество таких файлов в указанной директории. Путь к директории также передается в виде аргумента командной строки. 
-
-
+![рис8](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.39.06.png)
+![рис9](https://github.com/dmitryabushek/OS-labs-Abushek/blob/Images/lab11imgs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202021-09-12%20%D0%B2%2016.39.45.png)
 
 **Вывод:**  Я изучил основы программирования в оболочке ОС UNIX. Научился писать небольшие командные файлы.
 
